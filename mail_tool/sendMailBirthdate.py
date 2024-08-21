@@ -1,0 +1,76 @@
+import mysql.connector
+from datetime import datetime
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+import logging
+
+# Cấu hình logging
+logging.basicConfig(
+    filename='birthday_reminder.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
+# Kết nối tới MySQL
+try:
+    conn = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="Kkagiuma2004@",
+        database="dateofbirth"
+    )
+    cursor = conn.cursor()
+    logging.info('Connected to MySQL database successfully.')
+except mysql.connector.Error as err:
+    logging.error(f'Error connecting to MySQL: {err}')
+    raise
+
+# Lấy ngày hiện tại
+today = datetime.now().strftime('%m-%d')
+
+# Truy vấn các bạn có sinh nhật hôm nay
+try:
+    query = "SELECT name FROM friends WHERE DATE_FORMAT(birthdate, '%m-%d') = %s"
+    cursor.execute(query, (today,))
+    friends = cursor.fetchall()
+    logging.info('Query executed successfully.')
+except mysql.connector.Error as err:
+    logging.error(f'Error executing query: {err}')
+finally:
+    cursor.close()
+    conn.close()
+    logging.info('Connection closed.')
+
+# Cấu hình thông tin Gmail
+sender_email = "kkagiuma1@gmail.com"
+sender_password = "Kkagiuma2004@"
+receiver_email = "tyhh4719@gmail.com"
+
+# Xác định nội dung email
+if friends:
+    subject = "Birthday Reminder"
+    body = "Today's birthdays:\n" + "\n".join([friend[0] for friend in friends])
+    logging.info('Birthdays found: ' + ', '.join([friend[0] for friend in friends]))
+else:
+    subject = "Birthday Reminder - No Birthdays Today"
+    body = "There are no birthdays today."
+    logging.info('No birthdays today.')
+
+# Tạo email
+message = MIMEMultipart()
+message['From'] = sender_email
+message['To'] = receiver_email
+message['Subject'] = subject
+message.attach(MIMEText(body, 'plain'))
+
+# Gửi email
+try:
+    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server.starttls()
+    server.login(sender_email, sender_password)
+    server.sendmail(sender_email, receiver_email, message.as_string())
+    server.close()
+    logging.info('Email sent successfully!')
+except Exception as e:
+    logging.error(f'Failed to send email: {e}')

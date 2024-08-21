@@ -1,0 +1,20 @@
+2024-08-21 22:46:05,701 - INFO - Connected to MySQL database successfully.
+2024-08-21 22:46:05,709 - INFO - Query executed successfully.
+2024-08-21 22:46:05,709 - INFO - Connection closed.
+2024-08-21 22:46:05,709 - INFO - No birthdays today.
+2024-08-21 22:46:08,480 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-201f02faa68sm95857635ad.16 - gsmtp')
+2024-08-21 22:59:44,587 - INFO - Connected to MySQL database successfully.
+2024-08-21 22:59:44,588 - INFO - Query executed successfully.
+2024-08-21 22:59:44,589 - INFO - Connection closed.
+2024-08-21 22:59:44,589 - INFO - No birthdays today.
+2024-08-21 22:59:47,389 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7142c137a71sm851143b3a.75 - gsmtp')
+2024-08-21 23:00:31,536 - INFO - Connected to MySQL database successfully.
+2024-08-21 23:00:31,537 - INFO - Query executed successfully.
+2024-08-21 23:00:31,537 - INFO - Connection closed.
+2024-08-21 23:00:31,537 - INFO - No birthdays today.
+2024-08-21 23:00:34,145 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2d5eb90c72dsm2031824a91.22 - gsmtp')
+2024-08-21 23:04:44,504 - INFO - Connected to MySQL database successfully.
+2024-08-21 23:04:44,505 - INFO - Query executed successfully.
+2024-08-21 23:04:44,505 - INFO - Connection closed.
+2024-08-21 23:04:44,505 - INFO - No birthdays today.
+2024-08-21 23:04:47,018 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-201f031eb50sm95069865ad.119 - gsmtp')
