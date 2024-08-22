@@ -4,10 +4,17 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import logging
+import os
+
+# Lấy đường dẫn của thư mục chứa file code
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Đường dẫn đầy đủ tới file log
+log_file_path = os.path.join(current_directory, 'birthday_reminder.log')
 
 # Cấu hình logging
 logging.basicConfig(
-    filename='birthday_reminder.log',
+    filename=log_file_path,
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -42,10 +49,10 @@ finally:
     conn.close()
     logging.info('Connection closed.')
 
-# Cấu hình thông tin Gmail
-sender_email = "kkagiuma1@gmail.com"
+# Cấu hình thông tin Outlook
+sender_email = "22280012@student.hcmus.edu.vn"
 sender_password = "Kkagiuma2004@"
-receiver_email = "tyhh4719@gmail.com"
+receiver_email = "kkagiuma1@gmail.com"  # Bạn có thể thay đổi email người nhận nếu cần
 
 # Xác định nội dung email
 if friends:
@@ -66,7 +73,7 @@ message.attach(MIMEText(body, 'plain'))
 
 # Gửi email
 try:
-    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server = smtplib.SMTP('smtp-mail.outlook.com', 587)
     server.starttls()
     server.login(sender_email, sender_password)
     server.sendmail(sender_email, receiver_email, message.as_string())

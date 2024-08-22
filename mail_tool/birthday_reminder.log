@@ -18,3 +18,18 @@
 2024-08-21 23:04:44,505 - INFO - Connection closed.
 2024-08-21 23:04:44,505 - INFO - No birthdays today.
 2024-08-21 23:04:47,018 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-201f031eb50sm95069865ad.119 - gsmtp')
+2024-08-22 20:02:35,301 - INFO - Connected to MySQL database successfully.
+2024-08-22 20:02:35,301 - INFO - Query executed successfully.
+2024-08-22 20:02:35,301 - INFO - Connection closed.
+2024-08-22 20:02:35,301 - INFO - No birthdays today.
+2024-08-22 20:02:38,381 - ERROR - Failed to send email: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-203855805bbsm12124865ad.108 - gsmtp')
+2024-08-22 20:17:06,396 - INFO - Connected to MySQL database successfully.
+2024-08-22 20:17:06,398 - INFO - Query executed successfully.
+2024-08-22 20:17:06,399 - INFO - Connection closed.
+2024-08-22 20:17:06,399 - INFO - No birthdays today.
+2024-08-22 20:17:14,475 - INFO - Email sent successfully!
+2024-08-22 20:19:29,112 - INFO - Connected to MySQL database successfully.
+2024-08-22 20:19:29,113 - INFO - Query executed successfully.
+2024-08-22 20:19:29,113 - INFO - Connection closed.
+2024-08-22 20:19:29,114 - INFO - Birthdays found: Thu nghiem
+2024-08-22 20:19:34,997 - INFO - Email sent successfully!

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0364059-53f6-4289-b342-f7ddce3b48a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_tool/birthday_reminder.log" beforeDir="false" afterPath="$PROJECT_DIR$/mail_tool/birthday_reminder.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_tool/sendMailBirthdate.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_tool/sendMailBirthdate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,8 @@
       <workItem from="1724085586601" duration="29000" />
       <workItem from="1724085629749" duration="565000" />
       <workItem from="1724127221272" duration="35000" />
-      <workItem from="1724254073939" duration="2765000" />
+      <workItem from="1724254073939" duration="3173000" />
+      <workItem from="1724331530796" duration="1220000" />
     </task>
     <servers />
   </component>
