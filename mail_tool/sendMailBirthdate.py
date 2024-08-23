@@ -34,6 +34,7 @@ except mysql.connector.Error as err:
     raise
 
 # Lấy ngày hiện tại
+
 today = datetime.now().strftime('%m-%d')
 
 # Truy vấn các bạn có sinh nhật hôm nay

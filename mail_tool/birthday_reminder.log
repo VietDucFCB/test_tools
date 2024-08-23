@@ -33,3 +33,8 @@
 2024-08-22 20:19:29,113 - INFO - Connection closed.
 2024-08-22 20:19:29,114 - INFO - Birthdays found: Thu nghiem
 2024-08-22 20:19:34,997 - INFO - Email sent successfully!
+2024-08-23 21:34:55,102 - INFO - Connected to MySQL database successfully.
+2024-08-23 21:34:55,109 - INFO - Query executed successfully.
+2024-08-23 21:34:55,109 - INFO - Connection closed.
+2024-08-23 21:34:55,109 - INFO - No birthdays today.
+2024-08-23 21:35:04,361 - INFO - Email sent successfully!
