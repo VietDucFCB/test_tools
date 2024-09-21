@@ -14,6 +14,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 driver.get('https://dangcapthucung.joygame.vn/activity/20200929/index.html')
 
+
 button = WebDriverWait(driver, 10).until(
     EC.visibility_of_element_located((By.CLASS_NAME, 'header__btns-wraper__login-btn'))
 )

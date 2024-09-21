@@ -38,3 +38,8 @@
 2024-08-23 21:34:55,109 - INFO - Connection closed.
 2024-08-23 21:34:55,109 - INFO - No birthdays today.
 2024-08-23 21:35:04,361 - INFO - Email sent successfully!
+2024-09-14 16:22:19,313 - INFO - Connected to MySQL database successfully.
+2024-09-14 16:22:19,317 - INFO - Query executed successfully.
+2024-09-14 16:22:19,318 - INFO - Connection closed.
+2024-09-14 16:22:19,318 - INFO - No birthdays today.
+2024-09-14 16:22:26,753 - INFO - Email sent successfully!

@@ -7,7 +7,6 @@
     <list default="true" id="c0364059-53f6-4289-b342-f7ddce3b48a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mail_tool/birthday_reminder.log" beforeDir="false" afterPath="$PROJECT_DIR$/mail_tool/birthday_reminder.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_tool/sendMailBirthdate.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_tool/sendMailBirthdate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,11 @@
       <workItem from="1724085629749" duration="565000" />
       <workItem from="1724127221272" duration="35000" />
       <workItem from="1724254073939" duration="3173000" />
-      <workItem from="1724331530796" duration="1220000" />
+      <workItem from="1724331530796" duration="3424000" />
+      <workItem from="1724423671870" duration="1165000" />
+      <workItem from="1724426465825" duration="234000" />
+      <workItem from="1724509762340" duration="451000" />
+      <workItem from="1726305704823" duration="134000" />
     </task>
     <servers />
   </component>
