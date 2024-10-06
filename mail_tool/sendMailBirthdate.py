@@ -9,7 +9,6 @@ import os
 # Lấy đường dẫn của thư mục chứa file code
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
-# Đường dẫn đầy đủ tới file log
 log_file_path = os.path.join(current_directory, 'birthday_reminder.log')
 
 logging.basicConfig(
