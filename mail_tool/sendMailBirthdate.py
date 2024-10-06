@@ -12,8 +12,6 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 # Đường dẫn đầy đủ tới file log
 log_file_path = os.path.join(current_directory, 'birthday_reminder.log')
 
-# Cấu hình logging
-
 logging.basicConfig(
     filename=log_file_path,
     level=logging.INFO,
