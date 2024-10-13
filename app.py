@@ -1,4 +1,4 @@
-# save this as app.py
+
 from app import Flask
 
 app = Flask(__name__)
