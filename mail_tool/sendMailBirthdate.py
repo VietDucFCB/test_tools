@@ -6,7 +6,6 @@ from email.mime.multipart import MIMEMultipart
 import logging
 import os
 
-# Lấy đường dẫn của thư mục chứa file code
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 log_file_path = os.path.join(current_directory, 'birthday_reminder.log')
