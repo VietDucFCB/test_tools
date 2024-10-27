@@ -20,18 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VietDucFCB"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VietDucFCB&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VietDucFCB/test_tools.git",
-    "accountId": "54be85c5-e808-4164-85ee-c49e8056630f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VietDucFCB/test_tools.git&quot;,
+    &quot;accountId&quot;: &quot;54be85c5-e808-4164-85ee-c49e8056630f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -116,6 +116,7 @@
       <workItem from="1728200008389" duration="47000" />
       <workItem from="1728314975389" duration="23000" />
       <workItem from="1728823839868" duration="61000" />
+      <workItem from="1728916849526" duration="28000" />
     </task>
     <servers />
   </component>
