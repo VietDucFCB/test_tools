@@ -26,7 +26,6 @@
 2024-08-22 20:17:06,396 - INFO - Connected to MySQL database successfully.
 2024-08-22 20:17:06,398 - INFO - Query executed successfully.
 2024-08-22 20:17:06,399 - INFO - Connection closed.
-
 2024-08-22 20:17:06,399 - INFO - No birthdays today.
 2024-08-22 20:17:14,475 - INFO - Email sent successfully!
 2024-08-22 20:19:29,112 - INFO - Connected to MySQL database successfully.
