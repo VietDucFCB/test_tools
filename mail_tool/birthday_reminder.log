@@ -25,7 +25,8 @@
 2024-08-22 20:02:38,381 - ERROR - Failed to send email: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-203855805bbsm12124865ad.108 - gsmtp')
 2024-08-22 20:17:06,396 - INFO - Connected to MySQL database successfully.
 2024-08-22 20:17:06,398 - INFO - Query executed successfully.
-2024-08-22 20:17:06,399 - INFO - Connection closed
+2024-08-22 20:17:06,399 - INFO - Connection closed.
+
 2024-08-22 20:17:06,399 - INFO - No birthdays today.
 2024-08-22 20:17:14,475 - INFO - Email sent successfully!
 2024-08-22 20:19:29,112 - INFO - Connected to MySQL database successfully.
