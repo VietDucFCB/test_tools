@@ -15,6 +15,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
+
 try:
     conn = mysql.connector.connect(
         host="localhost",
