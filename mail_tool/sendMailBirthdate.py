@@ -20,7 +20,7 @@ try:
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Kkagiuma2004@",
+        password="*******",
         database="dateofbirth"
     )
     cursor = conn.cursor()
@@ -48,7 +48,7 @@ finally:
 
 # Cấu hình thông tin Outlook
 sender_email = "22280012@student.hcmus.edu.vn"
-sender_password = "Kkagiuma2004@"
+sender_password = "********"
 receiver_email = "kkagiuma1@gmail.com"  # Bạn có thể thay đổi email người nhận nếu cần
 
 # Xác định nội dung email
